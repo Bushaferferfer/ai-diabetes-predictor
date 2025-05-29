@@ -17,7 +17,7 @@ client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # === Sidebar ===
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Artificial_intelligence_logo.jpg/240px-Artificial_intelligence_logo.jpg", width=180)
+    st.image("https://uskudar.edu.tr/assets/kurumsal/logo-en/png/uskudar-university-logo.png", width=180)
     st.title("📘 Project Info")
     st.markdown("""
     **🎓 Graduation Thesis**  
